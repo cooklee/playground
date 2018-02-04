@@ -1,6 +1,7 @@
 from unittest import TestCase
-from math_f.mat_functions import fibonacci_iter
+from math_f.mat_functions import Fibonacci
 
+fibonacci_iter = Fibonacci.fibonacci_iter
 class FibonacciIterTests(TestCase):
 
     def test_fibonacci_zero(self):

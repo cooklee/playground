@@ -1,7 +1,7 @@
 from unittest import TestCase, skip
 from math import sqrt
 
-from math_f.mat_functions import private_pow, fibonacci
+from math_f.mat_functions import private_pow, Fibonacci
 
 
 class MatFunctionsTests(TestCase):
@@ -58,13 +58,20 @@ class MatFunctionsTests(TestCase):
 
 class FibonacciTests(TestCase):
 
+    def setUp(self):
+        pass
+
+    def tearDown(self):
+        Fibonacci.number_of_execution = 0
+
     def test_fibonacci_zero(self):
+
         """
         input : 0
         expected result : 0
         :return:
         """
-        self.assertEqual(fibonacci(0), 0, "this is from definition")
+        self.assertEqual(Fibonacci.fibonacci(0), 0, "this is from definition")
 
     def test_fibonacci_one(self):
         """
@@ -72,7 +79,7 @@ class FibonacciTests(TestCase):
         expected result : 1
         :return:
         """
-        self.assertEqual(fibonacci(1), 1, "this is from definition")
+        self.assertEqual(Fibonacci.fibonacci(1), 1, "this is from definition")
 
     def test_fibonacci_two(self):
         """
@@ -80,7 +87,7 @@ class FibonacciTests(TestCase):
         expected result : 1
         :return:
         """
-        self.assertEqual(fibonacci(2), 1, "0 + 1 should give 1")
+        self.assertEqual(Fibonacci.fibonacci(2), 1, "0 + 1 should give 1")
 
     def test_fibonacci_tree(self):
         """
@@ -88,7 +95,7 @@ class FibonacciTests(TestCase):
         expected result : 1
         :return:
         """
-        self.assertEqual(fibonacci(3), 2, "1 + 1 should give 2")
+        self.assertEqual(Fibonacci.fibonacci(3), 2, "1 + 1 should give 2")
 
     def test_fibonacci_five(self):
         """
@@ -96,31 +103,28 @@ class FibonacciTests(TestCase):
         expected result : 1
         :return:
         """
-        self.assertEqual(fibonacci(5), 5, "1 + 1 should give 2")
+        self.assertEqual(Fibonacci.fibonacci(5), 5, "1 + 1 should give 2")
 
     def test_fibonacci_ten(self):
         """
         input : 2
         expected result : 1
-        :return:
         """
-        self.assertEqual(fibonacci(10), 55, "1 + 1 should give 2")
+        self.assertEqual(Fibonacci.fibonacci(10), 55, "1 + 1 should give 2")
 
     def test_fibonacci_20(self):
         """
         input : 2
         expected result : 1
-        :return:
         """
-        self.assertEqual(fibonacci(20), 6765, "1 + 1 should give 2")
+        self.assertEqual(Fibonacci.fibonacci(20), 6765, "1 + 1 should give 2")
 
-    def test_fibonacci_50(self):
+    def test_fibonacci_30(self):
         """
-        input : 2
-        expected result : 1
-        :return:
+        input : 30
+        expected result : 832040
         """
-        self.assertEqual(fibonacci(50), 6765, "1 + 1 should give 2")
+        self.assertEqual(Fibonacci.fibonacci(30), 832040, "1 + 1 should give 2")
 
 
 

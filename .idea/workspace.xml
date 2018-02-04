@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54a3c74e-092d-4f9e-ad6d-37724c7f607d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Tests/test_iter_fibb.py" afterPath="$PROJECT_DIR$/Tests/test_iter_fibb.py" />
       <change beforePath="$PROJECT_DIR$/Tests/test_mat_function.py" afterPath="$PROJECT_DIR$/Tests/test_mat_function.py" />
+      <change beforePath="$PROJECT_DIR$/math_f/__init__.py" afterPath="$PROJECT_DIR$/math_f/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/math_f/mat_functions.py" afterPath="$PROJECT_DIR$/math_f/mat_functions.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +19,8 @@
       <file leaf-file-name="mat_functions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/math_f/mat_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="102">
+              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -26,8 +29,8 @@
       <file leaf-file-name="test_iter_fibb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/test_iter_fibb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -38,8 +41,8 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/math_f/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -58,8 +61,8 @@
       <file leaf-file-name="test_mat_function.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/test_mat_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="116" column="3" lean-forward="false" selection-start-line="116" selection-start-column="3" selection-end-line="116" selection-end-column="3" />
+            <state relative-caret-position="1222">
+              <caret line="111" column="1" lean-forward="false" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -114,6 +117,7 @@
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/Tests/mat_functions_tests.py" />
         <option value="$PROJECT_DIR$/mat_functions.py" />
+        <option value="$PROJECT_DIR$/math_f/mat_functions.py" />
         <option value="$PROJECT_DIR$/Tests/test_iter_fibb.py" />
         <option value="$PROJECT_DIR$/math_f/__init__.py" />
         <option value="$PROJECT_DIR$/Tests/test_mat_function.py" />
@@ -187,8 +191,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in Tests">
-    <configuration name="Unittests for test_iter_fibb.FibonacciIterTests.test_fibonacci_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in test_mat_function.py">
+    <configuration name="Unittests for test_mat_function.FibonacciTests.test_fibonacci_20" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -199,10 +203,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="playground" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_iter_fibb.FibonacciIterTests.test_fibonacci_one&quot;" />
+      <option name="_new_target" value="&quot;test_mat_function.FibonacciTests.test_fibonacci_20&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_iter_fibb.FibonacciIterTests.test_fibonacci_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_mat_function.FibonacciTests.test_fibonacci_30" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -213,10 +217,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="playground" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_iter_fibb.FibonacciIterTests.test_fibonacci_two&quot;" />
+      <option name="_new_target" value="&quot;test_mat_function.FibonacciTests.test_fibonacci_30&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_mat_function.FibonacciTests.test_fibonacci_50" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_mat_function.FibonacciTests.test_fibonacci_five" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -227,10 +231,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="playground" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_mat_function.FibonacciTests.test_fibonacci_50&quot;" />
+      <option name="_new_target" value="&quot;test_mat_function.FibonacciTests.test_fibonacci_five&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in Tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_mat_function.FibonacciTests.test_fibonacci_ten" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -241,10 +245,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="playground" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_mat_function.FibonacciTests.test_fibonacci_ten&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in test_iter_fibb.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_mat_function.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -255,23 +259,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="playground" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/test_iter_fibb.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Tests/test_mat_function.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_iter_fibb.FibonacciIterTests.test_fibonacci_one" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_iter_fibb.FibonacciIterTests.test_fibonacci_two" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_iter_fibb.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in Tests" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_mat_function.FibonacciTests.test_fibonacci_50" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_mat_function.FibonacciTests.test_fibonacci_five" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_mat_function.FibonacciTests.test_fibonacci_ten" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_mat_function.FibonacciTests.test_fibonacci_20" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_mat_function.FibonacciTests.test_fibonacci_30" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_mat_function.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Tests" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_mat_function.FibonacciTests.test_fibonacci_50" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_iter_fibb.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_iter_fibb.FibonacciIterTests.test_fibonacci_two" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_iter_fibb.FibonacciIterTests.test_fibonacci_one" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_mat_function.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_mat_function.FibonacciTests.test_fibonacci_30" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_mat_function.FibonacciTests.test_fibonacci_20" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_mat_function.FibonacciTests.test_fibonacci_ten" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_mat_function.FibonacciTests.test_fibonacci_five" />
       </list>
     </recent_temporary>
   </component>
@@ -292,45 +296,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_iter_fibb_FibonacciIterTests_test_fibonacci_one - 2018.02.04 at 23h 17m 20s.xml">
-      <configuration name="Unittests for test_iter_fibb.FibonacciIterTests.test_fibonacci_one" configurationId="tests" />
+    <history-entry file="Unittests_for_test_mat_function_FibonacciTests_test_fibonacci_20 - 2018.02.05 at 00h 22m 12s.xml">
+      <configuration name="Unittests for test_mat_function.FibonacciTests.test_fibonacci_20" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_iter_fibb_FibonacciIterTests_test_fibonacci_two - 2018.02.04 at 23h 17m 23s.xml">
-      <configuration name="Unittests for test_iter_fibb.FibonacciIterTests.test_fibonacci_two" configurationId="tests" />
+    <history-entry file="Unittests_for_test_mat_function_FibonacciTests_test_fibonacci_30 - 2018.02.05 at 00h 22m 27s.xml">
+      <configuration name="Unittests for test_mat_function.FibonacciTests.test_fibonacci_30" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_iter_fibb_FibonacciIterTests_test_fibonacci_two - 2018.02.04 at 23h 17m 41s.xml">
-      <configuration name="Unittests for test_iter_fibb.FibonacciIterTests.test_fibonacci_two" configurationId="tests" />
+    <history-entry file="Unittests_for_test_mat_function_FibonacciTests_test_fibonacci_five - 2018.02.05 at 00h 22m 03s.xml">
+      <configuration name="Unittests for test_mat_function.FibonacciTests.test_fibonacci_five" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_mat_function_FibonacciTests_test_fibonacci_50 - 2018.02.04 at 23h 18m 27s.xml">
-      <configuration name="Unittests for test_mat_function.FibonacciTests.test_fibonacci_50" configurationId="tests" />
+    <history-entry file="Unittests_for_test_mat_function_FibonacciTests_test_fibonacci_ten - 2018.02.05 at 00h 22m 06s.xml">
+      <configuration name="Unittests for test_mat_function.FibonacciTests.test_fibonacci_ten" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_mat_function_FibonacciTests_test_fibonacci_50 - 2018.02.04 at 23h 19m 26s.xml">
-      <configuration name="Unittests for test_mat_function.FibonacciTests.test_fibonacci_50" configurationId="tests" />
+    <history-entry file="Unittests_for_test_mat_function_FibonacciTests_test_fibonacci_tree - 2018.02.05 at 00h 21m 58s.xml">
+      <configuration name="Unittests for test_mat_function.FibonacciTests.test_fibonacci_tree" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Tests - 2018.02.04 at 23h 18m 14s.xml">
-      <configuration name="Unittests in Tests" configurationId="tests" />
+    <history-entry file="Unittests_in_test_mat_function_py - 2018.02.05 at 00h 22m 39s.xml">
+      <configuration name="Unittests in test_mat_function.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Tests - 2018.02.04 at 23h 19m 34s.xml">
-      <configuration name="Unittests in Tests" configurationId="tests" />
+    <history-entry file="Unittests_in_test_mat_function_py - 2018.02.05 at 00h 24m 38s.xml">
+      <configuration name="Unittests in test_mat_function.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Tests - 2018.02.04 at 23h 36m 48s.xml">
-      <configuration name="Unittests in Tests" configurationId="tests" />
+    <history-entry file="Unittests_in_test_mat_function_py - 2018.02.05 at 00h 24m 52s.xml">
+      <configuration name="Unittests in test_mat_function.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_iter_fibb_py - 2018.02.04 at 23h 17m 52s.xml">
-      <configuration name="Unittests in test_iter_fibb.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_mat_function_py - 2018.02.05 at 00h 25m 13s.xml">
+      <configuration name="Unittests in test_mat_function.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_iter_fibb_py - 2018.02.04 at 23h 18m 09s.xml">
-      <configuration name="Unittests in test_iter_fibb.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_mat_function_py - 2018.02.05 at 00h 25m 44s.xml">
+      <configuration name="Unittests in test_mat_function.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -353,34 +358,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_f/mat_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_f/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -401,20 +382,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/test_iter_fibb.py">
+    <entry file="file://$PROJECT_DIR$/Tests/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_f/mat_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/test_iter_fibb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/math_f/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/test_mat_function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="116" column="3" lean-forward="false" selection-start-line="116" selection-start-column="3" selection-end-line="116" selection-end-column="3" />
+        <state relative-caret-position="1222">
+          <caret line="111" column="1" lean-forward="false" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
