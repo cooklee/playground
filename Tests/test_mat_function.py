@@ -114,7 +114,6 @@ class FibonacciTests(TestCase):
         """
         self.assertEqual(fibonacci(20), 6765, "1 + 1 should give 2")
 
-    @skip("there is a problem with memory")
     def test_fibonacci_50(self):
         """
         input : 2
