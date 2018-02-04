@@ -1,7 +1,7 @@
 from unittest import TestCase, skip
 from math import sqrt
 
-from mat_functions import private_pow, fibonacci
+from math_f.mat_functions import private_pow, fibonacci
 
 
 class MatFunctionsTests(TestCase):
