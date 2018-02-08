@@ -1,4 +1,4 @@
-from unittest import TestCase, skip
+from unittest import TestCase
 from math import sqrt
 
 from math_f.mat_functions import private_pow, Fibonacci
@@ -69,7 +69,6 @@ class FibonacciTests(TestCase):
         """
         input : 0
         expected result : 0
-        :return:
         """
         self.assertEqual(Fibonacci.fibonacci(0), 0, "this is from definition")
 
@@ -77,7 +76,7 @@ class FibonacciTests(TestCase):
         """
         input : 1
         expected result : 1
-        :return:
+
         """
         self.assertEqual(Fibonacci.fibonacci(1), 1, "this is from definition")
 
@@ -85,37 +84,37 @@ class FibonacciTests(TestCase):
         """
         input : 2
         expected result : 1
-        :return:
+
         """
         self.assertEqual(Fibonacci.fibonacci(2), 1, "0 + 1 should give 1")
 
     def test_fibonacci_tree(self):
         """
-        input : 2
-        expected result : 1
-        :return:
+        input : 3
+        expected result : 2
+
         """
         self.assertEqual(Fibonacci.fibonacci(3), 2, "1 + 1 should give 2")
 
     def test_fibonacci_five(self):
         """
-        input : 2
-        expected result : 1
-        :return:
+        input : 5
+        expected result : 5
+
         """
         self.assertEqual(Fibonacci.fibonacci(5), 5, "1 + 1 should give 2")
 
     def test_fibonacci_ten(self):
         """
-        input : 2
-        expected result : 1
+        input : 10
+        expected result : 55
         """
         self.assertEqual(Fibonacci.fibonacci(10), 55, "1 + 1 should give 2")
 
     def test_fibonacci_20(self):
         """
-        input : 2
-        expected result : 1
+        input : 20
+        expected result : 6765
         """
         self.assertEqual(Fibonacci.fibonacci(20), 6765, "1 + 1 should give 2")
 

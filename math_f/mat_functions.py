@@ -9,6 +9,8 @@ class Fibonacci(object):
 
     @staticmethod
     def fibonacci(number):
+        if number < 0:
+            return None
         Fibonacci.number_of_execution += 1
         if number == 0 or number == 1:
             return number
@@ -16,6 +18,8 @@ class Fibonacci(object):
 
     @staticmethod
     def fibonacci_iter(number):
+        if number < 0:
+            return None
         if number == 0 or number == 1:
             return number
         n_minus_two = 0
