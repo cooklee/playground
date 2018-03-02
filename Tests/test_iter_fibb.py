@@ -1,5 +1,5 @@
 from unittest import TestCase
-from math_f.mat_functions import Fibonacci
+from math_functions.mat_functions import Fibonacci
 
 fibonacci_iter = Fibonacci.fibonacci_iter
 
