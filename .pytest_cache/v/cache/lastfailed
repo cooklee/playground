@@ -1,4 +1,0 @@
-{
-  "tests/test_iter_fibb.py": true,
-  "tests/test_mat_function.py": true
-}
