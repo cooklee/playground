@@ -4,7 +4,7 @@ from math_functions.mat_functions import Fibonacci
 fibonacci_iter = Fibonacci.fibonacci_iter
 
 
-class FibonacciIterTests(TestCase):
+class TestFibonacciIter(TestCase):
 
     def test_fibonacci_zero(self):
         """
