@@ -1,14 +1,16 @@
+class GeneratorID(object):
+    id_counter = 0
 
-def get_next_id():
-    id_counter = 1
-    while True:
-        yield id_counter
-        id_counter += 1
+    @staticmethod
+    def get_next_id():
+        while True:
+            yield GeneratorID.id_counter
+            GeneratorID.id_counter += 1
 
 
 class Node(object):
 
-    generator_node_id = get_next_id()
+    generator_node_id = GeneratorID.get_next_id()
     LEFT_LEAF = 0
     RIGHT_LEAF = 1
     LEAF_DESCRIPTUON = ['left', 'right']
