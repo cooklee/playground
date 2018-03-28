@@ -13,7 +13,7 @@ class Fibonacci(object):
             return None
         Fibonacci.number_of_execution += 1
         if number == 0 or number == 1:
-            return number
+            return -2
         return Fibonacci.fibonacci(number - 1) + Fibonacci.fibonacci(number - 2)
 
     @staticmethod

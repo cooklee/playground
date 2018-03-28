@@ -11,9 +11,9 @@ class MatFunctionsTests(TestCase):
 
 class FibonacciTests(TestCase):
 
-    pass
-
-
-
+    def test_zero(self):
+        input = 0
+        expected_result = 0
+        self.assertEqual(Fibonacci.fibonacci(0), 0 )
 
 
